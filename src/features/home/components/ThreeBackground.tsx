@@ -6,7 +6,7 @@ import { useRef, useMemo } from 'react';
 import * as THREE from 'three';
 
 const Particles = () => {
-  const ref = useRef();
+  const ref = useRef<any>(null);
 
   const positions = useMemo(() => {
     const arr = new Float32Array(2000 * 3);

@@ -1,6 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
+// 💡 Variants をインポートに追加
+import { motion, Variants } from 'framer-motion';
 import { IntroStage } from '../types';
 
 export default function TextReveal({ stage }: { stage: IntroStage }) {
@@ -8,7 +9,8 @@ export default function TextReveal({ stage }: { stage: IntroStage }) {
 
   const text = 'Welcome';
 
-  const container = {
+  // 💡 : Variants 型を明示
+  const container: Variants = {
     hidden: {},
     visible: {
       transition: {
@@ -17,7 +19,8 @@ export default function TextReveal({ stage }: { stage: IntroStage }) {
     },
   };
 
-  const letter = {
+  // 💡 : Variants 型を明示（これで 'easeOut' が正しく認識されます）
+  const letter: Variants = {
     hidden: {
       opacity: 0,
       y: 80,

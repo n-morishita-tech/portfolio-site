@@ -35,7 +35,7 @@ export const skillCategories: SkillCategory[] = [
       },
       {
         logo: TailwindLogo,
-        name: 'tailwind',
+        name: 'Tailwind',
         level: 4,
         glow: 'rgba(255,255,255,0.9',
       },
@@ -111,13 +111,13 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       {
         logo: MySqlLogo,
-        name: 'MySql',
+        name: 'MySQL',
         level: 4,
         glow: 'rgba(59,130,246,0.9)',
       },
       {
         logo: PostgreSqlLogo,
-        name: 'postgreSql',
+        name: 'PostgreSQL',
         level: 4,
         glow: 'rgba(59,130,246,0.9)',
       },
