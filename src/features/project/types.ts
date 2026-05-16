@@ -6,5 +6,5 @@ export type ProjectCategories = {
   // github: string;
   demo: string;
   videoSrc: string;
-  thumbnail: string;
+  // thumbnail: string;
 };

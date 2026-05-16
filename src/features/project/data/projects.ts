@@ -21,7 +21,7 @@ export const projectCategories: ProjectCategories[] = [
     // github: 'https://github.com/xxxx',
     demo: '/videos/notion_clone.mp4',
     videoSrc: '/videos/notion_clone.mp4',
-    thumbnail: '/images/portfolio/notion_clone.webp',
+    // thumbnail: '/images/portfolio/notion_clone.webp',
   },
   // 次のプロジェクトを追加する際はここをコピー
   {
@@ -45,7 +45,7 @@ export const projectCategories: ProjectCategories[] = [
     // github: 'https://github.com/xxxx',
     demo: '/videos/slack_clone.mp4',
     videoSrc: '/videos/slack_clone.mp4',
-    thumbnail: '/images/portfolio/slack_clone.png',
+    // thumbnail: '/images/portfolio/slack_clone.png',
   },
   // 次のプロジェクトを追加する際はここをコピー
   {
@@ -68,6 +68,6 @@ export const projectCategories: ProjectCategories[] = [
     // github: 'https://github.com/xxxx',
     demo: '/videos/blog.mp4',
     videoSrc: '/videos/blog.mp4',
-    thumbnail: '/images/portfolio/blog.png',
+    // thumbnail: '/images/portfolio/blog.png',
   },
 ];
