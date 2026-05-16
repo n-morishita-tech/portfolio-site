@@ -23,7 +23,7 @@ const ProjectCard = () => {
             {project.videoSrc ? (
               <video
                 src={project.videoSrc}
-                poster={project.thumbnail}
+                // poster={project.thumbnail}
                 muted
                 autoPlay
                 loop
