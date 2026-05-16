@@ -12,12 +12,11 @@ import {
 } from '../../components/ui/sheet';
 import Hamburger from './Hamburger';
 import { Button } from '../ui/button';
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 import CatIcon from '../../../public/images/cat_icon.webp';
 
-const Header = () => {
+export default function Header() {
   const [open, setOpen] = useState(false);
 
   // --- 受注状況の管理設定 ---
@@ -39,7 +38,8 @@ const Header = () => {
     <header className="h-16 w-full flex items-center justify-between bg-[#0a0a0a]/80 backdrop-blur-md text-white sticky top-0 px-6 z-50 border-b border-white/10">
       {/* ロゴエリア */}
       <div className="flex items-center gap-3 pl-3">
-        <motion.div layoutId="site-logo">
+        {/* 💡 修正ポイント: イントロの移動アニメーション（MOVE）中、または完了（DONE）した時だけ layoutId を有効にする */}
+        <div>
           <Image
             src={CatIcon}
             alt="CatIcon"
@@ -47,7 +47,7 @@ const Header = () => {
             height={36}
             className="rounded-full shadow-[0_0_15px_rgba(244,114,182,0.5)]"
           />
-        </motion.div>
+        </div>
 
         <Link
           href="/"
@@ -62,7 +62,7 @@ const Header = () => {
           N.Morishita
         </Link>
 
-        {/* 【新設】PC用ステータスバッジ */}
+        {/* PC用ステータスバッジ */}
         <div className="hidden lg:flex items-center gap-2 px-3 py-1 ml-4 rounded-full bg-white/5 border border-white/10">
           <span className="relative flex h-2 w-2">
             {statusConfig.isAvailable && (
@@ -159,7 +159,7 @@ const Header = () => {
               )}
             </div>
 
-            {/* 【新設】スマホメニュー内のステータスカード */}
+            {/* スマホメニュー内のステータスカード */}
             <div className="mt-auto mb-8 mx-4 p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
               <div className="flex items-center gap-2 mb-2">
                 <span className="relative flex h-2 w-2">
@@ -187,6 +187,4 @@ const Header = () => {
       </div>
     </header>
   );
-};
-
-export default Header;
+}
