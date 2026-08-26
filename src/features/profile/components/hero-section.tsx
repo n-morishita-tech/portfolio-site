@@ -46,33 +46,35 @@ const HeroSection = () => {
         transition={{ duration: 0.8, delay: 0.2 }}
         className="flex-1 text-center md:text-left md:ml-10"
       >
-        <h2 className="text-sm font-bold tracking-[0.4em] uppercase text-pink-500 mb-4">
+        <h2 className="text-sm font-bold tracking-[0.4em] uppercase bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent mb-4">
           About Me
         </h2>
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tighter leading-[1.2]">
-          本質を貫く戦略と、
+
+        <h1 className="text-3xl md:text-4xl font-extrabold mb-6 tracking-tight leading-[1.25]">
+          Webアプリケーションを中心に、
           <br />
           <span className="bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
-            意志ある技術。
+            幅広い開発を経験。
           </span>
         </h1>
 
         <div className="space-y-6 text-white/70 text-lg leading-relaxed max-w-xl mx-auto md:mx-0">
           <p>
-            「プログラミングは、ビジネスの理想を現実へと繋ぐ手段」という信条のもと、
+            フロントエンドからバックエンドまで、
             <span className="text-white font-medium">
-              マーケティングの意図を汲み取った設計
+              Webアプリケーション開発に必要な領域を幅広く経験
             </span>
-            と、
-            <span className="text-white font-medium">
-              変化を恐れない柔軟な実装
-            </span>
-            を追求しています。
+            してきました。
+            設計・開発だけでなく、テストや障害対応など、システムを安定して運用するための業務にも携わっています。
           </p>
 
           <p className="text-base md:text-lg">
-            十数人規模でのテスト・障害対応といったシステムの堅牢性が問われる現場から、2〜3人でのスピード開発まで幅広く経験。
-            研修講師として「技術を誰にでもわかる言葉に翻訳する」スキルを磨いてきたため、ビジネスサイドとの円滑な意思決定を得意としています。
+            少人数でのスピード感のある開発から、複数人での大規模なテスト・障害対応まで経験。
+            また、研修講師として技術を分かりやすく伝える経験も積んできたため、
+            <span className="text-white font-medium">
+              技術だけでなく、周囲と認識を合わせながら進めること
+            </span>
+            も大切にしています。
           </p>
         </div>
       </motion.div>

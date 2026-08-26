@@ -111,19 +111,19 @@ const Hero = () => {
             className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight"
           >
             <span className="bg-linear-to-r from-white via-pink-200 to-purple-300 bg-clip-text text-transparent">
-              Build Beautiful
+              Build Better
             </span>
             <br />
-            <span className="text-white/90">Web Experiences</span>
+            <span className="text-white/90">Web Applications</span>
           </motion.h1>
 
           <motion.p
             variants={item}
             className="mt-6 text-lg md:text-xl text-white/60 leading-relaxed"
           >
-            LP制作から業務ツール開発まで、
+            Webアプリケーションの設計・開発を中心に、
             <br />
-            使いやすさと美しさを両立したWebを構築します。
+            フロントエンドからバックエンド、インフラまで幅広く経験しています。
           </motion.p>
 
           <motion.div variants={item} className="mt-10 flex gap-4">
