@@ -1,6 +1,6 @@
-import HeroSection from './components/HeroSection';
-import { SkillSection } from './components/SkillSection';
-import CertificationSection from './components/CertificationSection';
+import HeroSection from './components/hero-section';
+import { SkillSection } from './components/skill-section';
+import CertificationSection from './components/certification-section';
 
 export const ProfileView = () => {
   return (

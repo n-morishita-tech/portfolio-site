@@ -1,4 +1,4 @@
-import ProjectView from '@/features/project/ProjectView';
+import ProjectView from '@/features/project/project-view';
 
 const Project = () => {
   return <ProjectView />;

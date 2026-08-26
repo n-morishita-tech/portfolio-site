@@ -1,15 +1,15 @@
 'use client';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { useIntroStage } from '@/features/intro/hooks/useIntroStage';
+import { useIntroStage } from '@/features/intro/hooks/use-intro-stage';
 import { IntroStage } from './types';
 
-import TextReveal from './layers/TextReveal';
-import Particles from './layers/Particles';
-import LogoReveal from './layers/LogoReveal';
-import ScreenOpen from './layers/ScreenOpen';
-import { useIntroVisibility } from './hooks/useIntroVisibility';
-import { useRevealApp } from './hooks/useRevealApp';
+import TextReveal from './layers/text-reveal';
+import Particles from './layers/particles';
+import LogoReveal from './layers/logo-reveal';
+import ScreenOpen from './layers/screen-open';
+import { useIntroVisibility } from './hooks/use-intro-visibility';
+import { useRevealApp } from './hooks/use-reveal-app';
 
 export default function IntroController() {
   const stage = useIntroStage();

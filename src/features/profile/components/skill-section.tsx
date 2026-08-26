@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { skillCategories } from '../data/skills';
-import { SkillCard } from './SkillCard';
-import { useSkillHover } from '../hooks/useSkillHover';
+import { SkillCard } from './skill-card';
+import { useSkillHover } from '../hooks/use-skill-hover';
 
 export const SkillSection = () => {
   useSkillHover();

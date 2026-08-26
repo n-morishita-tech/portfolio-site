@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { contactSchema, ContactInput } from '../schema';
-import { sendContact } from '../api/sendContact';
+import { sendContact } from '../api/send-contact';
 import { ContactErrorResponse } from '../types';
 import { toast } from 'sonner';
 

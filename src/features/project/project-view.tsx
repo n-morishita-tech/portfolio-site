@@ -1,6 +1,6 @@
-import ProjectCard from '@/features/project/components/ProjectCard';
-import ComingSoonCard from '@/features/project/components/ComingSoonCard';
-import HeaderSection from '@/features/project/components/HeaderSection';
+import ProjectCard from '@/features/project/components/project-card';
+import ComingSoonCard from '@/features/project/components/coming-soon-card';
+import HeaderSection from '@/features/project/components/header-section';
 const ProjectView = () => {
   return (
     <>

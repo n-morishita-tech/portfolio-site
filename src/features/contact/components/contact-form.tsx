@@ -6,8 +6,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 
-import { useContactForm } from '../hooks/useContactForm';
-import { ContactSuccess } from './ContactSuccess';
+import { useContactForm } from '../hooks/use-contact-form';
+import { ContactSuccess } from './contact-success';
 
 export const ContactForm = () => {
   const { form, errors, loading, sent, handleChange, handleSubmit, reset } =

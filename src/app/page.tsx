@@ -1,4 +1,4 @@
-import { HomeView } from '@/features/home/HomeView';
+import { HomeView } from '@/features/home/home-view';
 export default function Top() {
   return <HomeView />;
 }

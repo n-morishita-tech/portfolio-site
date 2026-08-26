@@ -9,8 +9,8 @@ import {
   SheetTitle,
   SheetDescription,
   SheetTrigger,
-} from '../../components/ui/sheet';
-import Hamburger from './Hamburger';
+} from '../ui/sheet';
+import Hamburger from './hamburger';
 import { Button } from '../ui/button';
 import Image from 'next/image';
 

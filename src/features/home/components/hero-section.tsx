@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import ThreeBackground from './ThreeBackground';
+import ThreeBackground from './three-back-ground';
 
 import DawnovermistForestValley from '../../../../public/images/dawn_overmisty_forestvalley.webp';
 import MoonlitCherryblossoms from '../../../../public/images/moonlit_cherryblossoms.webp';
