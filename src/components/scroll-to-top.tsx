@@ -31,7 +31,7 @@ const ScrollToTop = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 right-10 p-4 bg-gray-800 text-white rounded-full shadow-lg transition-all duration-300 hover:scale-110 active:scale-95 hover:bg-gray-700"
+          className="fixed bottom-10 right-10 p-4 bg-gray-800 text-white rounded-full shadow-lg transition-all duration-300 hover:scale-110 active:scale-95 hover:bg-gray-700 z-99"
           aria-label="Scroll to top"
         >
           {/* シンプルな上向き矢印。アイコンライブラリを使ってもOK */}

@@ -23,7 +23,7 @@ const CTASection = () => {
   };
 
   return (
-    <section className="relative py-14 md:py-16 px-6 overflow-hidden bg-[#0a0a0a]">
+    <section className="relative mb-7  overflow-hidden bg-[#0a0a0a]">
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-200 h-100 bg-linear-to-r from-pink-500/10 via-purple-500/10 to-indigo-500/10 rounded-full blur-[120px] pointer-events-none" />
 
@@ -35,6 +35,7 @@ const CTASection = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
+          className="bg-[#0a0a0a]"
           viewport={{ once: true }}
           variants={{
             visible: {

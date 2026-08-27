@@ -30,6 +30,7 @@ export default function LogoReveal({ stage }: { stage: IntroStage }) {
       <motion.div layoutId="site-logo">
         <Image
           src={Logo}
+          loading="lazy"
           alt="logo"
           width={200}
           height={200}

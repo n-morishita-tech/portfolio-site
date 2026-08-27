@@ -43,6 +43,7 @@ export default function Header() {
           <Image
             src={CatIcon}
             alt="CatIcon"
+            priority
             width={36}
             height={36}
             className="rounded-full shadow-[0_0_15px_rgba(244,114,182,0.5)]"

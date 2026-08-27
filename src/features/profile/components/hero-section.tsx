@@ -31,6 +31,8 @@ const HeroSection = () => {
             src={CatIcon}
             alt="cat icon"
             fill
+            sizes="(max-width: 768px) 100vw, 50v"
+            priority
             className="
               object-cover rounded-full 
               border border-white/10
