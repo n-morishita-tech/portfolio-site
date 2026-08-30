@@ -8,6 +8,7 @@ import { certificationCategories } from '../data/certifications';
 const jetbrains = JetBrains_Mono({
   subsets: ['latin'],
   weight: ['400', '600'],
+  preload: false,
 });
 
 const CertificationSection = () => {
