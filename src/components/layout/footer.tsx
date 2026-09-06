@@ -11,10 +11,6 @@ const Footer = () => {
         <p className="text-xs text-white/40 mb-2">
           &copy; {currentYear} Created by N.Morishita.
         </p>
-
-        <p className="text-[10px] text-white/20 uppercase tracking-[0.2em]">
-          Handcrafted with Next.js
-        </p>
       </div>
     </footer>
   );

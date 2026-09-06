@@ -117,6 +117,19 @@ const Hero = () => {
             <span className="text-white/90">Web Applications</span>
           </motion.h1>
 
+          <motion.div
+            variants={item}
+            className="mt-6 mb-4 flex items-center gap-3"
+          >
+            <span className="w-8 h-px bg-linear-to-r from-pink-500 to-purple-500" />
+
+            <span className="text-xs md:text-sm font-semibold tracking-[0.2em] text-white/60">
+              UI・UXを大切にした開発
+            </span>
+
+            <span className="w-8 h-px bg-linear-to-r from-purple-500 to-pink-500" />
+          </motion.div>
+
           <motion.p
             variants={item}
             className="mt-6 text-lg md:text-xl text-white/60 leading-relaxed"

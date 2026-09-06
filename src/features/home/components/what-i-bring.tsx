@@ -33,7 +33,7 @@ const strengths = [
     subtitle: 'Development',
     icon: Bot,
     description:
-      'AIを積極的に活用して開発を効率化しながら、生成されたコードは人の目で検証します。',
+      'AIを活用して開発を効率化しながら、生成されたコードは人の目で検証します。',
     glow: 'rgba(79,70,229,0.15)',
     accent: 'from-indigo-500',
   },
